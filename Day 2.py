@@ -22,7 +22,7 @@ print(70 + float(3.16))
 a = str(123)
 print(type(a))
 
-a = 123
+a = 1235
 print(type(a))
 
 #String
