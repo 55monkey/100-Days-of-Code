@@ -38,13 +38,12 @@ else:
     print("Computer chose:")
     print(game_images[computer_choice])
 
-
     if user_choice == 0 and computer_choice == 2:
         print("You win!")
     elif computer_choice == 0 and user_choice == 2:
-        print("You lose")
+        print("You lost")
     elif computer_choice > user_choice:
-        print("You lose")
+        print("You lost")
     elif user_choice > computer_choice:
         print("You win!")
     elif computer_choice == user_choice:
