@@ -13,7 +13,6 @@ love_score = random.randint(1, 100)
 print(f"You love score is {love_score}.")
 
 
-
 import random
 test_seed = int(input("Create a seed number:"))
 random.seed(test_seed)
