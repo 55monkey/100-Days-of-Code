@@ -2,6 +2,7 @@
 
 #Functions with output
 def format_name(f_name, l_name):
+    """Take the first and last names and format it to return the title case of version of first and last name"""
   if f_name == "" or l_name == "":
      return "You did not provide valid name"
   formatted_f_name = (f_name.title())
